@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-
+import Homes from '../components/Homes'
 export default function Home() {
   return (
     <>
@@ -9,7 +7,10 @@ export default function Home() {
         <title>todo</title>
         <link rel='icon' href='#!' />
       </Head>
-      <div>todo</div>
+      <div>
+      
+        <Homes />
+      </div>
     </>
   )
 }
