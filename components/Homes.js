@@ -20,7 +20,9 @@ const Homes = () => {
       ) : (
         <div>
           {data.title}
-          <div><button onClick={() => addItem(data)}>add</button></div>
+          <div>
+            <button onClick={() => addItem(data)}>add</button>
+          </div>
         </div>
       )}
     </div>
